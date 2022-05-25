@@ -1,0 +1,25 @@
+.unit-converter{
+    display: grid;
+    justify-content: center;
+    background: #262626;
+    color: aliceblue;
+    padding: 100px;
+}
+h1 {
+    display: inline-block;
+}
+#inch{
+    height: 30px;
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+    padding: 5px;
+}
+#mm{
+    height: 30px;
+    border-radius: 5px;
+}
+p{
+    font-size: 50px;
+}
