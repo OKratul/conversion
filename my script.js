@@ -6,6 +6,9 @@ let cm = document.getElementById('cm');
  
 let mic = document.getElementById('micm');
 
+let km = document.getElementById('km');
+let mil = document.getElementById('mil');
+
 inch.addEventListener('input',function(){
     let i = this.value;
     let m = i * 25.4 ;
@@ -36,3 +39,17 @@ cm.addEventListener('input', function(){
     mic.value = d ;
 })
 
+km.addEventListener('input', function(){
+    let k = this.value ;
+    let mi = k * 0.6213711 ;
+
+    mil.value = mi ;
+})
+
+mil.addEventListener('input',function(){
+    let mi = this.value ;
+    let k = mi / 0.62137 ;
+    
+    km.value = k ;
+}
+)

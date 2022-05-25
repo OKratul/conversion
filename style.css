@@ -28,3 +28,16 @@ label{
     height: 30px;
     border-radius: 5px;
 }
+.kilometre{
+    margin-top: 100px;
+}
+
+#km{
+    height: 30px;
+    border-radius: 5px;
+}
+
+#mil{
+    height: 30px;
+    border-radius: 5px;
+}
